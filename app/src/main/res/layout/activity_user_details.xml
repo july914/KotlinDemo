@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/color_primary_dark"
+    android:layout_weight="0.3">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.3"
+        android:background="@color/color_primary_dark">
+
+
+        <TextView
+            android:id="@+id/CatNametextView"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/spacing_small_16"
+            android:layout_weight="0.1"
+            android:padding="@dimen/spacing_small_16"
+            android:textSize="@dimen/size_small_24"/>
+
+        <TextView
+            android:id="@+id/CatNumbertextView"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_weight="0.1"
+            android:textSize="@dimen/size_small_24"
+            android:layout_marginRight="@dimen/spacing_small_16"
+            android:padding="@dimen/spacing_small_16"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+</LinearLayout>
